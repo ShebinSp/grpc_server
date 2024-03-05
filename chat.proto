@@ -1,7 +1,9 @@
 syntax = "proto3";
 package chat;
 
-option go_package = "github.com/ShebinSp/grpc_server/chat";
+//option go_package = "github.com/ShebinSp/grpc_server/chat";
+option go_package = "";
+
 
 message Message {
     string body = 1;
